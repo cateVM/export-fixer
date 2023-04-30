@@ -3,7 +3,6 @@
 #include <string>
 #include <Windows.h>
 #include <ImageHlp.h>
-#include <iostream>
 #pragma comment (lib, "ImageHlp.lib")
 #define PTR(x) reinterpret_cast<void*>(x)
 #define NT_CHECK(x) if(!x) \
